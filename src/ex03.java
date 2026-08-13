@@ -8,8 +8,9 @@ public class ex03 {
 
         double nota1, nota2, nota3, nota4;
         double[] media = new double[10];
+        int aprovados = 0;
 
-        for(int i = 0; i < media.length; i++); {
+        for(int i = 0; i < media.length; i++) {
             nota1 = random.nextDouble(0,10);
             nota2 = random.nextDouble(0,10);
             nota3 = random.nextDouble(0,10);
